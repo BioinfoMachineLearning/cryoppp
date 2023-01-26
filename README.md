@@ -1,4 +1,4 @@
-# CryoEM protein particle dataset for single particle analysis
+# CryoEM particle dataset for single particle analysis
 This repository contains scripts used to crawl, download, process and annotate CryoEM protein particle data with ground truth annotations.
 
 ## Path to Dataset:
