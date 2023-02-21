@@ -1,5 +1,5 @@
 # Cryo-PPP: A Large Expert-Curated Cryo-Electron Microscopy Image Dataset for Single Particle Picking 
-This repository contains scripts used to crawl, download, process and annotate CryoEM protein particle data with ground truth annotations.
+This repository contains scripts used to crawl, process, annotate, and post procress CryoEM protein particle pickicking (Cryo-PPP) dataset.
 
 ## Path to Dataset:
 http://calla.rnet.missouri.edu/cryoEM_particle_data/
