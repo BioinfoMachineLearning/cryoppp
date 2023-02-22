@@ -1,4 +1,4 @@
-# Cryo-PPP: A Large Expert-Curated Cryo-Electron Microscopy Image Dataset for Single Particle Picking 
+# CryoPPP: A Large Expert-Labelled Cryo-EM Image Dataset for Machine Learning Protein Particle Picking 
 This repository contains scripts used to crawl, process, annotate, and post procress CryoEM protein particle pickicking (Cryo-PPP) dataset.
 
 ## Path to Dataset:
