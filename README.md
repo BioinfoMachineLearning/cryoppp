@@ -2,7 +2,7 @@
 This repository contains scripts used to crawl, process, annotate, and post procress CryoEM protein particle pickicking (Cryo-PPP) dataset.
 
 ## Path to Dataset:
-http://calla.rnet.missouri.edu/cryoEM_particle_data/
+http://calla.rnet.missouri.edu/cryoppp
 
 ## Dataset Directory Structure:
 
