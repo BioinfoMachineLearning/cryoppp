@@ -1,7 +1,7 @@
 # CryoPPP: A Large Expert-Labelled Cryo-EM Image Dataset for Machine Learning Protein Particle Picking 
 This repository contains scripts used to crawl, process, annotate, and post procress CryoEM protein particle pickicking (Cryo-PPP) dataset.
 
-## Path to Dataset:
+## Path to Download Dataset:
 http://calla.rnet.missouri.edu/cryoppp
 
 ## Dataset Directory Structure:
@@ -21,4 +21,4 @@ The Cryo-PPP dataset consists of 32 ground truth data and metadata for 335 EMPIA
 
 Each data folder (titled after the corresponding EMPIAR ID) for all ground truth annotated data includes the following information: raw micrographs, gain motion correction file, ground truth, and particles stack. Please refer to the paper for entire dataset directory.
 
-Link to Cryo-PDS paper: 
+Link to CryoPPP paper: https://www.biorxiv.org/content/10.1101/2023.02.21.529443v1
