@@ -64,7 +64,7 @@ Statistics of picked protein particles for each EMPIAR database in CryoPPP:
 | 31 | 10093     | Mechanotransduction channel NOMPC | 300                   | (3838, 3710) | 208                   | 172                    | 56394                            |
 | 32 | 10345     | Signaling Protein                 | 300                   | (3710, 3838) | 200                   | 149                    | 15894                            |
 
-## Data Usage for ML-based applications:
+## Data Usage for ML-Based Applications:
 
 Researchers can use CryoPPP to train and test their Machine Learning / Deep Learning based methods for automated cryo-EM protein particle picking. 
 
@@ -81,20 +81,20 @@ and the corresponding star file for all protein particles in EMPIAR 10005 is sto
 
 -----
 
-## Rights and permissions
+## Rights and Permissions
 Open Access 
 This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s).
 
 
-Link to CryoPPP paper: https://www.biorxiv.org/content/10.1101/2023.02.21.529443v1
+** Link to CryoPPP paper ** : https://www.biorxiv.org/content/10.1101/2023.02.21.529443v1
 
 ## Cite this work
-If you use the code or data associated with this research work or otherwise find this data useful, please cite:
-@article {Dhakal2023.02.21.529443,
-	author = {Dhakal, Ashwin and Gyawali, Rajan and Wang, Liguo and Cheng, Jianlin},
-	title = {CryoPPP: A Large Expert-Labelled Cryo-EM Image Dataset for Machine Learning Protein Particle Picking},
-	elocation-id = {2023.02.21.529443},
-	year = {2023},
-	doi = {10.1101/2023.02.21.529443},
-	journal = {bioRxiv}
+If you use the code or data associated with this research work or otherwise find this data useful, please cite: \
+@article {Dhakal2023.02.21.529443, \
+	author = {Dhakal, Ashwin and Gyawali, Rajan and Wang, Liguo and Cheng, Jianlin}, \
+	title = {CryoPPP: A Large Expert-Labelled Cryo-EM Image Dataset for Machine Learning Protein Particle Picking}, \
+	elocation-id = {2023.02.21.529443}, \
+	year = {2023}, \
+	doi = {10.1101/2023.02.21.529443}, \
+	journal = {bioRxiv} \
 }
