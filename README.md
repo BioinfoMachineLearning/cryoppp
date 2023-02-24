@@ -29,40 +29,40 @@ Each data folder (titled after the corresponding EMPIAR dataset ID) for all expe
 ## CryoPPP Statistics
 Statistics of picked protein particles for each EMPIAR database in CryoPPP: 
 
-| SN | EMPAIR ID | Protein Type                      | \# of Micrographs | Image size   | Particle Diameter (A) | Particle Diameter (px) | \# of True Protein Particles |
-| -- | --------- | --------------------------------- | ----------------- | ------------ | --------------------- | ---------------------- | ---------------------------- |
-| 1  | 10389     | Metal Binding Protein             | 300               | (3838, 3710) | 200                   | 313                    | 10870                        |
-| 2  | 10081     | Transport Protein                 | 300               | (3710, 3838) | 200                   | 154                    | 39352                        |
-| 3  | 10289     | Transport Protein                 | 300               | (3710, 3838) | 200                   | 162                    | 61517                        |
-| 4  | 11057     | Hydrolase                         | 300               | (5760, 4092) | 140                   | 186                    | 45219                        |
-| 5  | 10444     | Membrane Protein                  | 300               | (5760, 4092) | 180                   | 217                    | 58731                        |
-| 6  | 10576     | Nuclear Protein (DNA)             | 295               | (7420, 7676) | 180                   | 265                    | 75220                        |
-| 7  | 10816     | Transport Protein                 | 300               | (7676, 7420) | 180                   | 359                    | 45363                        |
-| 8  | 10526     | Ribosome (50S)                    | 294               | (7676, 7420) | 400                   | 482                    | 3265                         |
-| 9  | 11051     | Transcription/DNA/RNA             | 300               | (3838, 3710) | 180                   | 214                    | 83227                        |
-| 10 | 10760     | Membrane Protein                  | 300               | (3838, 3710) | 130                   | 106                    | 173664                       |
-| 11 | 11183     | Signaling Protein                 | 300               | (5760, 4092) | 140                   | 159                    | 80014                        |
-| 12 | 10671     | Signaling Protein                 | 298               | (5760, 4092) | 110                   | 133                    | 69012                        |
-| 13 | 10291     | Transport Protein                 | 300               | (3710, 3838) | 160                   | 130                    | 99808                        |
-| 14 | 10669     | Proteasome (Plant Protein)        | 300               | (7676, 7420) | 500                   | 730                    | 19660                        |
-| 15 | 10077     | Ribosome (70S)                    | 300               | (4096, 4096) | 250                   | 216                    | 31919                        |
-| 16 | 10061     | Hydrolase (Beta-galactosidase)    | 300               | (7676, 7420) | 150                   | 471                    | 35218                        |
-| 17 | 10097     | Viral Protein                     | 300               | (3838, 3710) | 140                   | 107                    | 58629                        |
-| 18 | 10028     | Ribosome (80S)                    | 300               | (4096, 4096) | 300                   | 224                    | 26391                        |
-| 19 | 10096     | Viral Protein                     | 300               | (3838, 3710) | 110                   | 84                     | 231351                       |
-| 20 | 10737     | Membrane Protein (E-coli)         | 293               | (5760, 4092) | 179                   | 179                    | 59265                        |
-| 21 | 10387     | Protein + DNA                     | 300               | (3710, 3838) | 168                   | 213                    | 101778                       |
-| 22 | 10532     | VIRAL PROTEIN                     | 300               | (4096, 4096) | 179                   | 174                    | 87933                        |
-| 23 | 10240     | LIPD TRANSPORT                    | 300               | (3838, 3710) | 170                   | 156                    | 85958                        |
-| 24 | 10005     | TRPV1 Tansport protein            | 30                | (3710, 3710) | 172                   | 142                    | 5374                         |
-| 25 | 10017     | β -galactosidase                  | 84                | (4096, 4096) | 190                   | 108                    | 49391                        |
-| 26 | 10075     | Bacteriophage MS2                 | 300               | (4096, 4096) | 270                   | 233                    | 12682                        |
-| 27 | 10184     | Aldolase                          | 300               | (3838, 3710) | 100                   | 118                    | 219849                       |
-| 28 | 10059     | TRPV1                             | 295               | (3838, 3710) | 160                   | 132                    | 190398                       |
-| 29 | 10406     | 70S Ribosome                      | 300               | (3838, 3710) | 226                   | 212                    | 24703                        |
-| 30 | 10590     | TRPV1 with DkTx and RTX           | 300               | (3710, 3838) | 236                   | 158                    | 62493                        |
-| 31 | 10093     | Mechanotransduction channel NOMPC | 300               | (3838, 3710) | 208                   | 172                    | 56394                        |
-| 32 | 10345     | Signaling Protein                 | 300               | (3710, 3838) | 200                   | 149                    | 15894                        |
+| SN | EMPAIR ID | Protein Type                      | Number of Micrographs | Image size   | Particle Diameter (A) | Particle Diameter (px) | Number of True Protein Particles |
+| -- | --------- | --------------------------------- | --------------------- | ------------ | --------------------- | ---------------------- | -------------------------------- |
+| 1  | 10389     | Metal Binding Protein             | 300                   | (3838, 3710) | 200                   | 313                    | 10870                            |
+| 2  | 10081     | Transport Protein                 | 300                   | (3710, 3838) | 200                   | 154                    | 39352                            |
+| 3  | 10289     | Transport Protein                 | 300                   | (3710, 3838) | 200                   | 162                    | 61517                            |
+| 4  | 11057     | Hydrolase                         | 300                   | (5760, 4092) | 140                   | 186                    | 45219                            |
+| 5  | 10444     | Membrane Protein                  | 300                   | (5760, 4092) | 180                   | 217                    | 58731                            |
+| 6  | 10576     | Nuclear Protein (DNA)             | 295                   | (7420, 7676) | 180                   | 265                    | 75220                            |
+| 7  | 10816     | Transport Protein                 | 300                   | (7676, 7420) | 180                   | 359                    | 45363                            |
+| 8  | 10526     | Ribosome (50S)                    | 294                   | (7676, 7420) | 400                   | 482                    | 3265                             |
+| 9  | 11051     | Transcription/DNA/RNA             | 300                   | (3838, 3710) | 180                   | 214                    | 83227                            |
+| 10 | 10760     | Membrane Protein                  | 300                   | (3838, 3710) | 130                   | 106                    | 173664                           |
+| 11 | 11183     | Signaling Protein                 | 300                   | (5760, 4092) | 140                   | 159                    | 80014                            |
+| 12 | 10671     | Signaling Protein                 | 298                   | (5760, 4092) | 110                   | 133                    | 69012                            |
+| 13 | 10291     | Transport Protein                 | 300                   | (3710, 3838) | 160                   | 130                    | 99808                            |
+| 14 | 10669     | Proteasome (Plant Protein)        | 300                   | (7676, 7420) | 500                   | 730                    | 19660                            |
+| 15 | 10077     | Ribosome (70S)                    | 300                   | (4096, 4096) | 250                   | 216                    | 31919                            |
+| 16 | 10061     | Hydrolase (Beta-galactosidase)    | 300                   | (7676, 7420) | 150                   | 471                    | 35218                            |
+| 17 | 10097     | Viral Protein                     | 300                   | (3838, 3710) | 140                   | 107                    | 58629                            |
+| 18 | 10028     | Ribosome (80S)                    | 300                   | (4096, 4096) | 300                   | 224                    | 26391                            |
+| 19 | 10096     | Viral Protein                     | 300                   | (3838, 3710) | 110                   | 84                     | 231351                           |
+| 20 | 10737     | Membrane Protein (E-coli)         | 293                   | (5760, 4092) | 179                   | 179                    | 59265                            |
+| 21 | 10387     | Protein + DNA                     | 300                   | (3710, 3838) | 168                   | 213                    | 101778                           |
+| 22 | 10532     | VIRAL PROTEIN                     | 300                   | (4096, 4096) | 179                   | 174                    | 87933                            |
+| 23 | 10240     | LIPD TRANSPORT                    | 300                   | (3838, 3710) | 170                   | 156                    | 85958                            |
+| 24 | 10005     | TRPV1 Tansport protein            | 30                    | (3710, 3710) | 172                   | 142                    | 5374                             |
+| 25 | 10017     | β -galactosidase                  | 84                    | (4096, 4096) | 190                   | 108                    | 49391                            |
+| 26 | 10075     | Bacteriophage MS2                 | 300                   | (4096, 4096) | 270                   | 233                    | 12682                            |
+| 27 | 10184     | Aldolase                          | 300                   | (3838, 3710) | 100                   | 118                    | 219849                           |
+| 28 | 10059     | TRPV1                             | 295                   | (3838, 3710) | 160                   | 132                    | 190398                           |
+| 29 | 10406     | 70S Ribosome                      | 300                   | (3838, 3710) | 226                   | 212                    | 24703                            |
+| 30 | 10590     | TRPV1 with DkTx and RTX           | 300                   | (3710, 3838) | 236                   | 158                    | 62493                            |
+| 31 | 10093     | Mechanotransduction channel NOMPC | 300                   | (3838, 3710) | 208                   | 172                    | 56394                            |
+| 32 | 10345     | Signaling Protein                 | 300                   | (3710, 3838) | 200                   | 149                    | 15894                            |
 
 ## Data Usage for ML-based applications:
 
