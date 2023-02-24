@@ -29,7 +29,7 @@ Each data folder (titled after the corresponding EMPIAR dataset ID) for all expe
 ## CryoPPP Statistics
 Statistics of picked protein particles for each EMPIAR database in CryoPPP: 
 
-| SN | EMPAIR ID | Protein Type                      | Number of Micrographs | Image size   | Particle Diameter (A) | Number of True Protein Particles |
+| SN | EMPAIR ID | Protein Type                      | # of Micrographs | Image size   | Particle Diameter (A) | # of True Protein Particles |
 | -- | --------- | --------------------------------- | --------------------- | ------------ | --------------------- | -------------------------------- |
 | 1  | 10389     | Metal Binding Protein             | 300                   | (3838, 3710) | 200                   | 10870                            |
 | 2  | 10081     | Transport Protein                 | 300                   | (3710, 3838) | 200                   | 39352                            |
@@ -91,10 +91,13 @@ Link to CryoPPP paper: https://www.biorxiv.org/content/10.1101/2023.02.21.529443
 
 ## Cite this work
 If you use the code or data associated with this research work or otherwise find this data useful, please cite:
-@article{Dhakal2023.02.21.529443,
-  title={CryoPPP: A Large Expert-Labelled Cryo-EM Image Dataset for Machine Learning Protein Particle Picking},
-  author={Dhakal, Ashwin and Gyawali, Rajan and Wang, Liguo and Cheng, Jianlin},
-  journal={bioRxiv},
-  year={2023},
-  doi = {10.1101/2023.02.21.529443}
+@article {Dhakal2023.02.21.529443,
+	author = {Dhakal, Ashwin and Gyawali, Rajan and Wang, Liguo and Cheng, Jianlin},
+	title = {CryoPPP: A Large Expert-Labelled Cryo-EM Image Dataset for Machine Learning Protein Particle Picking},
+	elocation-id = {2023.02.21.529443},
+	year = {2023},
+	doi = {10.1101/2023.02.21.529443},
+	URL = {https://www.biorxiv.org/content/early/2023/02/22/2023.02.21.529443},
+	eprint = {https://www.biorxiv.org/content/early/2023/02/22/2023.02.21.529443.full.pdf},
+	journal = {bioRxiv}
 }
