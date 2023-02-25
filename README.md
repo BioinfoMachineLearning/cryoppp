@@ -20,7 +20,7 @@ CryoPPP is a diverse, open-access, high-resolution Cryo-Electron Microscopy prot
 The CryoPPP dataset consists of 32 ground truth data and metadata for 335 EMPIAR IDs. The ground truth data is comprised of variety of 9089 Micrographs (~300 cryo-EM images per EMPIAR ID) with manually curated ground truth coordinates of picked protein particles. The metadata consists of 1,698,802 high resolution micrographs deposited in EMPIAR with their respective FPT and Globus data download paths.
 
 ## Example Dataset
-![readme_git](https://user-images.githubusercontent.com/24986485/221086867-0e69b680-692e-4892-9bb9-2e31ef03cdeb.jpg)
+![readme_git](https://user-images.githubusercontent.com/24986485/221383343-8ddec678-52e9-467b-a0d5-4f76b9b3f4e0.jpg)
 
 
 Each data folder (titled after the corresponding EMPIAR dataset ID) for all expert labelled data includes the following information: raw micrographs / motion corrected micrographs, gain motion correction file, ground truth, and particles stack. 
