@@ -27,7 +27,7 @@ Each data folder (titled after the corresponding EMPIAR dataset ID) for all expe
 
 
 ## CryoPPP Statistics
-Statistics of picked protein particles for each EMPIAR database in CryoPPP: 
+Statistics of true protein particles for each EMPIAR database in CryoPPP: 
 
 | SN | EMPAIR ID | Protein Type                      | Number of Micrographs | Image size   | Particle Diameter (A) | Number of True Protein Particles |
 | -- | --------- | --------------------------------- | --------------------- | ------------ | --------------------- | -------------------------------- |
