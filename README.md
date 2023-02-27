@@ -82,8 +82,8 @@ and the corresponding star file for all protein particles in EMPIAR 10005 is sto
 -----
 
 ## Rights and Permissions
-Open Access 
-This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s).
+Open Access \
+This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 
 
 ** Link to CryoPPP paper ** : https://www.biorxiv.org/content/10.1101/2023.02.21.529443v1
