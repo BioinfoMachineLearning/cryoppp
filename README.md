@@ -6,8 +6,7 @@ http://calla.rnet.missouri.edu/cryoppp
 
 ## Dataset Directory Structure:
 
-![direc](https://user-images.githubusercontent.com/24986485/214904761-94030d5e-ff8a-4286-a2d5-e6c2466195e0.jpg)
-
+![figure_9](https://user-images.githubusercontent.com/24986485/221978450-f80fcc72-85d1-4086-9186-1c43527736a6.jpg)
 
 CryoPPP is a diverse, open-access, high-resolution Cryo-Electron Microscopy protein dataset for single particle analysis with benchmarking ground truth annotations. It consists of manually labelled cryo-EM micrographs of 32 non-redundant, representative protein datasets selected from Electron Microscopy Public Image Archive (EMPIAR). It includes 9,089 diverse, high-resolution micrographs (~300 cryo-EM images per EMPIAR dataset) in which the coordinates of protein particles were identified by human experts. The protein particle labeling process was rigorously validated by both 2D particle class validation and 3D density map validation with the gold standard. We believe that the CryoPPP would bridge the gap between the computational potential of Deep Learning and the standard benchmarking dataset inadequacy for high-end microscopic analysis of Cryo-EM micrographs in academic research. 
 
