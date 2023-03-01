@@ -2,11 +2,11 @@
 This repository contains scripts used to crawl, process, annotate, and post procress CryoEM protein particle picking (CryoPPP) dataset.
 
 ## Data Download and Extraction 
-Path to Dataset: http://calla.rnet.missouri.edu/cryoppp  \
+Path to Dataset: http://calla.rnet.missouri.edu/cryoppp 
 
-Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be downloaded by simply clicking on the file. \
-Once you have downloaded the file, you must extract its contents. For example, you to extract the tar file 10005.tar.gz, use the command: \
-`tar -zxvf 10005.tar.gz -C` \
+Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be downloaded by simply clicking on the file. 
+Once you have downloaded the file, you must extract its contents. For example, to extract the tar file 10005.tar.gz, use command: \
+`tar -zxvf 10005.tar.gz -C` 
 
 Alternatively, if you are using a Windows operating system, you can use tools such as WinRAR or 7zip to extract the file.
 
