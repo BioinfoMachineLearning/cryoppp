@@ -4,6 +4,15 @@ This repository contains scripts used to crawl, process, annotate, and post proc
 ## Path to Download Dataset:
 http://calla.rnet.missouri.edu/cryoppp
 
+Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be downloaded by simply clicking on the file. 
+Once you have downloaded the file, you must extract its contents. 
+For example, you can extract the tar file 10005.tar.gz, use the command: 
+`tar -zxvf 10005.tar.gz -C` 
+
+Alternatively, if you are using a Windows operating system, 
+you can use tools such as WinRAR or 7zip to extract the file.
+
+
 ## Dataset Directory Structure:
 
 ![figure_9](https://user-images.githubusercontent.com/24986485/221978450-f80fcc72-85d1-4086-9186-1c43527736a6.jpg)
