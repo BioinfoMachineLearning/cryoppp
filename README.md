@@ -11,7 +11,7 @@ Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be
 OR \
 To download and extract dataset (ex: 10005), use command: \
 `wget https://calla.rnet.missouri.edu/cryoppp/10005.tar.gz` \
-`tar -zxvf EMPIAR-ID.tar.gz -C` 
+`tar -zxvf 10005.tar.gz -C` 
 
 
 ## Option 2: Users perferring scripts
@@ -19,7 +19,7 @@ To download and extract dataset (ex: 10005), use command: \
 `cd download_micrographs_motion_correction_files` \
 `python downloading_micrographs_from_EMPIAR.py` 
 
-These commands will enable you to download micrographs and all of the required motion correction files. Next, you should retrieve the particle labels from Zenedo by accessing this link: https://zenodo.org/record/7934683
+These commands will enable you to download micrographs and all of the required motion correction files. Next, you should retrieve the protein particle labels from Zenedo by accessing this link: https://zenodo.org/record/7934683
 
 
 ## Option 3: Users with limited disk space
