@@ -1,21 +1,39 @@
-# CryoPPP: A Large Expert-Labelled Cryo-EM Image Dataset for Machine Learning Protein Particle Picking 
-This repository contains scripts used to crawl, process, annotate, and post procress CryoEM protein particle picking (CryoPPP) dataset.
+# CryoPPP: A Large Expert-Curated Cryo-EM Image Dataset for Machine Learning Protein Particle Picking 
+This repository contains scripts used to crawl, download, process, annotate, and post procress CryoEM protein particle picking (CryoPPP) dataset.
 
-## Data Download and Extraction 
-Path to Dataset: http://calla.rnet.missouri.edu/cryoppp 
+## Data Download and Extraction
 
-Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be downloaded by simply clicking on the file. 
+## Option 1: Direct download all data
+
+Path to CryoPPP Dataset: http://calla.rnet.missouri.edu/cryoppp 
+
+Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be downloaded by simply clicking on the file OR `wget https://calla.rnet.missouri.edu/cryoppp/EMPIAR-ID.tar.gz`
 Once you have downloaded the file, you must extract its contents. For example, to extract the tar file 10005.tar.gz, use command: \
 `tar -zxvf 10005.tar.gz -C` 
 
 Alternatively, if you are using a Windows operating system, you can use tools such as WinRAR or 7zip to extract the file.
 
+## Option 2: Users perferring scripts
+`git clone https://github.com/BioinfoMachineLearning/cryoppp.git`
+`cd download_micrographs_motion_correction_files`
+`python downloading_micrographs_from_EMPIAR.py`
 
-## Dataset Directory Structure:
+These commands will enable you to download micrographs and all of the required motion correction files. Next, you should retrieve the particle labels from Zenedo by accessing this link: https://zenodo.org/record/7934683
 
-![figure_9](https://user-images.githubusercontent.com/24986485/221978450-f80fcc72-85d1-4086-9186-1c43527736a6.jpg)
 
-CryoPPP is a diverse, open-access, high-resolution Cryo-Electron Microscopy protein dataset for single particle analysis with benchmarking ground truth annotations. It consists of manually labelled cryo-EM micrographs of 32 non-redundant, representative protein datasets selected from Electron Microscopy Public Image Archive (EMPIAR). It includes 9,089 diverse, high-resolution micrographs (~300 cryo-EM images per EMPIAR dataset) in which the coordinates of protein particles were identified by human experts. The protein particle labeling process was rigorously validated by both 2D particle class validation and 3D density map validation with the gold standard. We believe that the CryoPPP would bridge the gap between the computational potential of Deep Learning and the standard benchmarking dataset inadequacy for high-end microscopic analysis of Cryo-EM micrographs in academic research. 
+## Option 3: Users with limited disk space
+If storage space is a concern, researchers can opt for a more lightweight version of CryoPPP called CryoPPP_Lite.  
+CryoPPP_Lite includes truncated versions of the original micrographs and particle ground truth files that result in a total storage size of 121 GB, making it easier to store and transfer. This version includes an 8-bit representation of micrographs in JPG format, along with the necessary particle coordinate files for 34 Cryo-EM datasets.
+
+Path to CryoPPP_Lite Dataset: http://calla.rnet.missouri.edu/cryoppp_lite
+The steps to download and extract the data files are identical to the instructions provided in option 1.
+
+
+## CryoPPP Dataset Directory Structure:
+
+![figure_9](https://github.com/BioinfoMachineLearning/cryoppp/assets/24986485/04f4b35c-70c0-4ccd-8f9d-67b33063b2f7)
+
+CryoPPP is a large, diverse, expert-curated cryo-EM image dataset for protein particle picking and analysis. It consists of labelled cryo-EM micrographs of 34 representative protein datasets selected from Electron Microscopy Public Image Archive (EMPIAR). The dataset is 2.6 terabytes and includes 9,893 high-resolution micrographs with labelled protein particle coordinates. The labelling process was rigorously validated through 2D particle class validation and 3D density map validation with the gold standard. The dataset is expected to greatly facilitate the development of AI-based and classical methods for automated cryo-EM protein particle picking. 
 
 ## Data Curation and Ground Truth Annotation Procedure:
 
@@ -23,7 +41,7 @@ CryoPPP is a diverse, open-access, high-resolution Cryo-Electron Microscopy prot
 
 ## Data Records
 
-The CryoPPP dataset consists of 32 ground truth data and metadata for 335 EMPIAR IDs. The ground truth data is comprised of variety of 9089 Micrographs (~300 cryo-EM images per EMPIAR ID) with manually curated ground truth coordinates of picked protein particles. The metadata consists of 1,698,802 high resolution micrographs deposited in EMPIAR with their respective FPT and Globus data download paths. Link to Cryo-EM protein Metadata: http://calla.rnet.missouri.edu/cryoppp/EMPIAR_metadata_335.xlsx
+The CryoPPP dataset consists of 34 ground truth data and metadata for 335 EMPIAR IDs. The ground truth data is comprised of variety of 9893 Micrographs (~300 cryo-EM images per EMPIAR ID) with manually curated ground truth coordinates of picked protein particles. The metadata consists of 1,698,802 high resolution micrographs deposited in EMPIAR with their respective FPT and Globus data download paths. Link to Cryo-EM protein Metadata: http://calla.rnet.missouri.edu/cryoppp/EMPIAR_metadata_335.xlsx
 
 ## Example Dataset
 ![readme_git](https://user-images.githubusercontent.com/24986485/221383343-8ddec678-52e9-467b-a0d5-4f76b9b3f4e0.jpg)
