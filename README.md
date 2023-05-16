@@ -7,16 +7,16 @@ This repository contains scripts used to crawl, download, process, annotate, and
 
 Path to CryoPPP Dataset: http://calla.rnet.missouri.edu/cryoppp 
 
-Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be downloaded by simply clicking on the file OR `wget https://calla.rnet.missouri.edu/cryoppp/EMPIAR-ID.tar.gz`
+Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be downloaded by simply clicking on the file OR `wget https://calla.rnet.missouri.edu/cryoppp/EMPIAR-ID.tar.gz` \
 Once you have downloaded the file, you must extract its contents. For example, to extract the tar file 10005.tar.gz, use command: \
 `tar -zxvf 10005.tar.gz -C` 
 
 Alternatively, if you are using a Windows operating system, you can use tools such as WinRAR or 7zip to extract the file.
 
 ## Option 2: Users perferring scripts
-`git clone https://github.com/BioinfoMachineLearning/cryoppp.git`
-`cd download_micrographs_motion_correction_files`
-`python downloading_micrographs_from_EMPIAR.py`
+`git clone https://github.com/BioinfoMachineLearning/cryoppp.git` \
+`cd download_micrographs_motion_correction_files` \
+`python downloading_micrographs_from_EMPIAR.py` \
 
 These commands will enable you to download micrographs and all of the required motion correction files. Next, you should retrieve the particle labels from Zenedo by accessing this link: https://zenodo.org/record/7934683
 
@@ -25,7 +25,7 @@ These commands will enable you to download micrographs and all of the required m
 If storage space is a concern, researchers can opt for a more lightweight version of CryoPPP called CryoPPP_Lite.  
 CryoPPP_Lite includes truncated versions of the original micrographs and particle ground truth files that result in a total storage size of 121 GB, making it easier to store and transfer. This version includes an 8-bit representation of micrographs in JPG format, along with the necessary particle coordinate files for 34 Cryo-EM datasets.
 
-Path to CryoPPP_Lite Dataset: http://calla.rnet.missouri.edu/cryoppp_lite
+Path to CryoPPP_Lite Dataset: http://calla.rnet.missouri.edu/cryoppp_lite \
 The steps to download and extract the data files are identical to the instructions provided in option 1.
 
 
