@@ -7,11 +7,14 @@ This repository contains scripts used to crawl, download, process, annotate, and
 
 Path to CryoPPP Dataset: http://calla.rnet.missouri.edu/cryoppp 
 
-Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be downloaded by simply clicking on the file OR `wget https://calla.rnet.missouri.edu/cryoppp/EMPIAR-ID.tar.gz` \
-Once you have downloaded the file, you must extract its contents. For example, to extract the tar file 10005.tar.gz, use command: \
-`tar -zxvf 10005.tar.gz -C` 
+Each EMPIAR ID in CryoPPP is available as a compressed file (tar.gz) that can be downloaded by simply clicking on the file 
 
-Alternatively, if you are using a Windows operating system, you can use tools such as WinRAR or 7zip to extract the file.
+Once you have downloaded the file, you must extract its contents. If you are using a Windows operating system, you can use tools such as WinRAR or 7zip to extract the file.
+OR \
+For example, to download and extract the tar file Dataset 10005, use command: \
+`wget https://calla.rnet.missouri.edu/cryoppp/10005.tar.gz` \
+`tar -zxvf EMPIAR-ID.tar.gz -C` 
+
 
 ## Option 2: Users perferring scripts
 `git clone https://github.com/BioinfoMachineLearning/cryoppp.git` \
@@ -89,7 +92,6 @@ Statistics of true protein particles for each EMPIAR database in CryoPPP:
 | 32     | 11056         | Transport Protein              | 0.164         | 361                       | (5760, 4092)   | 164                        | 88.94                            | 125908                               |
 | 33     | 10852         | Signaling Protein              | 0.227         | 343                       | (5760, 4092)   | 123                        | 157.81                           | 310291                               |
 | 34     | 10947         | Viral Protein                  | 0.048         | 400                       | (4096, 4096)   | 240                        | 443.92                           | 106393                               |
-
 
 ## Data Usage for ML-Based Applications:
 
