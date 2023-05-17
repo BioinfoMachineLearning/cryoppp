@@ -22,7 +22,7 @@ To download and extract dataset (ex: 10005), use command: \
 These commands will enable you to download micrographs and all of the required motion correction files. Next, you should retrieve the protein particle labels from Zenedo by accessing this link: https://zenodo.org/record/7934683
 
 
-## Option 3: Users with limited disk space
+## Option 3: Download a light version of the data where there is only limited disk space
 If storage space is a concern, researchers can opt for a more lightweight version of CryoPPP called CryoPPP_Lite.  
 CryoPPP_Lite includes truncated versions of the original micrographs and particle ground truth files that result in a total storage size of 121 GB, making it easier to store and transfer. This version includes an 8-bit representation of micrographs in JPG format, along with the necessary particle coordinate files for 34 Cryo-EM datasets.
 
