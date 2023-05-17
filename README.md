@@ -1,9 +1,9 @@
 # CryoPPP: A Large Expert-Curated Cryo-EM Image Dataset for Machine Learning Protein Particle Picking 
 This repository contains scripts used to crawl, download, process, annotate, and post procress CryoEM protein particle picking (CryoPPP) dataset.
 
-## Data Download and Extraction
+## Data Download and Extraction in one of the three ways
 
-## Option 1: Direct download all data
+## Option 1: Direct download all data from our server
 
 Path to CryoPPP Dataset: http://calla.rnet.missouri.edu/cryoppp 
 
@@ -14,7 +14,7 @@ To download and extract dataset (ex: 10005), use command: \
 `tar -zxvf 10005.tar.gz -C` 
 
 
-## Option 2: Users perferring scripts
+## Option 2: Use scripts to download all the cryo-EM micrographs from EMPIAR and labels from Zenodo
 `git clone https://github.com/BioinfoMachineLearning/cryoppp.git` \
 `cd download_micrographs_motion_correction_files` \
 `python downloading_micrographs_from_EMPIAR.py` 
