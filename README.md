@@ -1,5 +1,5 @@
 # CryoPPP: A Large Expert-Curated Cryo-EM Image Dataset for Machine Learning Protein Particle Picking 
-This repository contains scripts used to crawl, download, process, annotate, and post procress CryoEM protein particle picking (CryoPPP) dataset.
+This repository contains scripts used to crawl, download, process, annotate, and post procress the CryoEM protein particle picking (CryoPPP) dataset.
 
 ## Data Download and Extraction in one of the three ways
 
