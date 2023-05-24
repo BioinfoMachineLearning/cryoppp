@@ -19,7 +19,7 @@ To download and extract dataset (ex: 10005), use command: \
 `cd download_micrographs_motion_correction_files` \
 `python downloading_micrographs_from_EMPIAR.py` 
 
-These commands will enable you to download micrographs and all of the required motion correction files. Next, you should retrieve the protein particle labels from Zenedo by accessing this link: https://zenodo.org/record/7934683
+These commands will enable you to download micrographs and all of the required motion correction files. Next, you should retrieve the protein particle labels from Zenodo by accessing this link: https://zenodo.org/record/7934683
 
 
 ## Option 3: Download a light version of the data where there is only limited disk space
