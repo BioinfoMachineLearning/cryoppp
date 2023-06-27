@@ -110,18 +110,20 @@ and the corresponding star file for all protein particles in EMPIAR 10005 is sto
 
 ## Rights and Permissions
 Open Access \
-This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 
 
-** Link to CryoPPP paper ** : https://www.biorxiv.org/content/10.1101/2023.02.21.529443v1
+** Link to CryoPPP paper ** : https://www.nature.com/articles/s41597-023-02280-2
 
 ## Cite this work
 If you use the code or data associated with this research work or otherwise find this data useful, please cite: \
-@article {Dhakal2023.02.21.529443, \
+@article {Dhakal2023, \
 	author = {Dhakal, Ashwin and Gyawali, Rajan and Wang, Liguo and Cheng, Jianlin}, \
-	title = {CryoPPP: A Large Expert-Labelled Cryo-EM Image Dataset for Machine Learning Protein Particle Picking}, \
-	elocation-id = {2023.02.21.529443}, \
+	title = {A large expert-curated cryo-EM image dataset for machine learning protein particle picking}, \
 	year = {2023}, \
-	doi = {10.1101/2023.02.21.529443}, \
-	journal = {bioRxiv} \
+    volume = {10}, \
+    issue = {1}, \
+	doi = {10.1038/s41597-023-02280-2}, \
+	journal = {Scientific Data}, \
+    url = {https://doi.org/10.1038/s41597-023-02280-2}
 }
