@@ -125,5 +125,5 @@ If you use the code or data associated with this research work or otherwise find
     issue = {1}, \
 	doi = {10.1038/s41597-023-02280-2}, \
 	journal = {Scientific Data}, \
-    url = {https://doi.org/10.1038/s41597-023-02280-2}
+    url = { https://doi.org/10.1038/s41597-023-02280-2 }
 }
